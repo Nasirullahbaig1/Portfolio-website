@@ -552,3 +552,53 @@ footer .arrows a i:hover{
     line-height: 1.5;
 }
 
+
+/* Blog strts from here */
+
+.container .main-blog{
+    height: 100vh;
+    width: 100%;
+    display: block;
+}
+.container .main-blog .portion{
+    background-color: tomato;
+    height: 30vh;
+    width: 98%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    cursor: pointer;
+    transition: 0.3s ease;
+    color: white;
+}
+.container .main-blog .portion:hover{
+    background-color: rgb(223, 88, 65);
+    border-radius: 20px;
+}
+.container .main-blog .portion .picture img{
+    height: 100%;
+
+}
+.container .main-blog .portion .description h3{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 24px;
+}
+.container .main-blog .portion .description p{
+    text-align: center;
+    padding: 10px 50px;  
+}
+.container .main-blog .portion .description .icons-blog{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.container .main-blog .portion .description .icons-blog i{
+    padding: 10px;
+    color: white;
+    transition: 0.3s ease   ;
+}
+.container .main-blog .portion .description .icons-blog i:hover{
+    color: black;
+}
